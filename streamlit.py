@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 
 def main():
-    st.title("Video and Photo Uploader")
-    st.title(" For Pothole detection " )
+    st.title("Video and Photo Uploader "/n" For Pothole detection")
+   
     st.write("Upload your videos and photos here!")
 
     file = st.file_uploader("Upload file", type=["mp4", "jpg", "jpeg", "png"])

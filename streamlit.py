@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 def main():
-    st.title("Video and Photo Uploader "/n" For Pothole detection")
+    st.title("Video and Photo Uploader ", " For Pothole detection")
    
     st.write("Upload your videos and photos here!")
 
